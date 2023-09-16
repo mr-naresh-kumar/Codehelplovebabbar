@@ -1,0 +1,22 @@
+.container{
+    height: 500px;
+    width: 500px;
+    border: 2px solid red;
+    display: flex;
+    background-color: green;
+}
+.box{
+    height: 150px;
+    width: 150px;
+    margin: 20px;
+    border: 2px solid orange;
+    background-color: aqua;
+    transition: 0.5s; 
+     transition-property: background-color; 
+    transition-delay: 1000ms;
+
+}
+.box:hover{
+    background-color: brown;
+
+}

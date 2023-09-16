@@ -1,0 +1,36 @@
+.container{
+    width: 100%;
+    background-color: yellow;
+    border: 2px solid red;
+    height: 215px;
+}
+.box{
+    height: 212px;
+    width: 212px;
+    background-color: aqua;
+    border: 2px solid green;
+    animation: babbar;
+    animation-duration: 3s;
+    animation-iteration-count: 4;
+    animation-timing-function:linear ;
+    animation-delay: 1s;
+ animation-direction:normal ;
+ /* animation-fill-mode: ; */
+
+}
+@keyframes babbar{
+    0%{
+        width: 212px;
+        background-color: black;
+    }
+    40%{
+        width: 40%;
+        background-color: chartreuse;
+
+
+    }
+    100%{
+        width:100%;
+        background-color: brown;
+    }
+}
